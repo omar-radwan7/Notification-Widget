@@ -1,0 +1,9 @@
+{
+  "name": "pumpfun-notification-plugin",
+  "version": "1.0.0",
+  "description": "Embeddable plugin for pump.fun buy notifications",
+  "main": "src/plugin.js",
+  "scripts": {
+    "build": "cp src/plugin.js dist/plugin.js"
+  }
+}

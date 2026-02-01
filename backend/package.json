@@ -1,0 +1,23 @@
+{
+  "name": "pumpfun-notification-backend",
+  "version": "1.0.0",
+  "description": "Backend service for pump.fun buy event notifications",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@triton-one/yellowstone-grpc": "^1.0.0",
+    "@solana/web3.js": "^1.91.0",
+    "ws": "^8.16.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
